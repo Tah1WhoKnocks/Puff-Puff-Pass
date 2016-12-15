@@ -3,7 +3,7 @@
   <spriteName>spr_up_hole</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>60</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -55,18 +55,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check_pressed(ord('D')) &amp;&amp; place_meeting(x,y,obj_up)
+            <string>if keyboard_check_pressed(ord('E')) &amp;&amp; place_meeting(x,y,obj_up)
 {
     global.points+=10;
     with instance_nearest(x,y,obj_up) instance_destroy()
 }
+
+
 
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="68">
+    <event eventtype="9" enumb="69">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -96,7 +98,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="10" enumb="68">
+    <event eventtype="10" enumb="69">
       <action>
         <libid>1</libid>
         <id>541</id>

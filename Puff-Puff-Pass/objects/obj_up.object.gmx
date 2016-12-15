@@ -26,6 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>y+=global.woo;
+
+if(y &gt; 480)
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
