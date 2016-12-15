@@ -35,6 +35,9 @@
       <object>objects\obj_right_hole</object>
     </objects>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeline0</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\danceFloor</room>
   </rooms>
