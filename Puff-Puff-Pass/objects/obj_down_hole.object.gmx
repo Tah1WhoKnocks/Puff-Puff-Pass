@@ -57,7 +57,7 @@
             <kind>1</kind>
             <string>if keyboard_check_pressed(ord('W')) &amp;&amp; place_meeting(x,y,obj_down)
 {
-    global.points+=10;
+    score+=10;
     with instance_nearest(x,y,obj_down) instance_destroy()
 }
 

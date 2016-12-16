@@ -30,6 +30,7 @@
 if(y &gt; 480)
 {
     instance_destroy();
+    score-=10
 }
 </string>
           </argument>

@@ -21,6 +21,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_puff</font>
+  </fonts>
   <objects name="objects">
     <objects name="puffs">
       <object>objects\obj_left</object>
@@ -34,6 +37,7 @@
       <object>objects\obj_up_hole</object>
       <object>objects\obj_right_hole</object>
     </objects>
+    <object>objects\Score</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tml_gay_retard</timeline>
