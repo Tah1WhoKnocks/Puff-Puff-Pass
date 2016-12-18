@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Reeses_puffs_songs</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="puffs">
       <sprite>sprites\spr_left</sprite>
@@ -17,6 +19,10 @@
       <sprite>sprites\spr_down_hole</sprite>
       <sprite>sprites\spr_up_hole</sprite>
       <sprite>sprites\spr_right_hole</sprite>
+    </sprites>
+    <sprites name="Buttons">
+      <sprite>sprites\spr_play_butt</sprite>
+      <sprite>sprites\spr_puffs_butt</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -37,13 +43,24 @@
       <object>objects\obj_up_hole</object>
       <object>objects\obj_right_hole</object>
     </objects>
-    <object>objects\Score</object>
+    <objects name="Boring Objects">
+      <object>objects\Score</object>
+      <object>objects\obj_play</object>
+      <object>objects\obj_puffs_player</object>
+      <object>objects\obj_puff_select</object>
+    </objects>
+    <objects name="Video">
+      <object>objects\obj_puffs</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tml_gay_retard</timeline>
+    <timeline>timelines\tml_puff</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\danceFloor</room>
+    <room>rooms\rm_menu</room>
+    <room>rooms\rm_puffs</room>
+    <room>rooms\rm_select</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

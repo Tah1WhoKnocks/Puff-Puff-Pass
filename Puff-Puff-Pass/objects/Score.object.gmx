@@ -35,6 +35,7 @@ score = 0;
 
 
 
+
 </string>
           </argument>
         </arguments>
@@ -60,6 +61,7 @@ score = 0;
             <string>///fonts for days
 draw_set_colour(c_white);
 draw_text(500,400,score);
+draw_text(400,400,global.combo);
 draw_set_font(fnt_puff);
 
 </string>
