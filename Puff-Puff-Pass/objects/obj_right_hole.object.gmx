@@ -58,7 +58,11 @@
             <string>if keyboard_check_pressed(ord('R')) &amp;&amp; place_meeting(x,y,obj_right)
 {
     with instance_nearest(x,y,obj_right) instance_destroy()
-    global.combo++;
+    if(global.combo&lt;9)
+    {
+        global.combo++;
+    }
+    
     score+= global.combo * 10
 }else if (keyboard_check_pressed(ord('R')))
 {

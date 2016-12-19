@@ -61,7 +61,8 @@ score = 0;
             <string>///fonts for days
 draw_set_colour(c_white);
 draw_text(500,400,score);
-draw_text(400,400,global.combo);
+draw_text(500,350,"x ");
+draw_text(550,350,global.combo);
 draw_set_font(fnt_puff);
 
 </string>
