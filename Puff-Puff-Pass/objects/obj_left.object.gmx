@@ -31,6 +31,7 @@ if(y &gt; 480)
 {
     instance_destroy();
     score-=10
+    global.combo = 1
 }
 </string>
           </argument>

@@ -64,6 +64,7 @@ global.combo = 1;</code>
     <instance objName="obj_puffs_player" x="600" y="420" name="inst_2E39AF27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_puffs" x="180" y="180" name="inst_68D863CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_puffs" x="120" y="120" name="inst_EAB5A258" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Titlesong" x="120" y="0" name="inst_ADA6230C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

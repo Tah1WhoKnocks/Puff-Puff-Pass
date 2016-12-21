@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\Reeses_puffs_songs</sound>
+    <sound>sound\reposted</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="puffs">
@@ -25,7 +26,9 @@
       <sprite>sprites\spr_puffs_butt</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_puff</font>
@@ -45,6 +48,7 @@
     </objects>
     <objects name="Boring Objects">
       <object>objects\Score</object>
+      <object>objects\Titlesong</object>
       <object>objects\obj_play</object>
       <object>objects\obj_puffs_player</object>
       <object>objects\obj_puff_select</object>
