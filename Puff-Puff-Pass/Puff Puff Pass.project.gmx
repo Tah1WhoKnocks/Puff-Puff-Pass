@@ -69,7 +69,6 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_puffs</room>
-    <room>rooms\rm_select</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
