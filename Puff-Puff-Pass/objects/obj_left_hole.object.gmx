@@ -55,7 +55,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check_pressed(ord('Q')) &amp;&amp; place_meeting(x,y,obj_left)
+            <string>global.stepcount +=1;
+
+
+if keyboard_check_pressed(ord('Q')) &amp;&amp; place_meeting(x,y,obj_left)
 {
     with instance_nearest(x,y,obj_left) instance_destroy()
     if(global.combo&lt;9)
