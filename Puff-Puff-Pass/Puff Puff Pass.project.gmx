@@ -7,6 +7,11 @@
   <sounds name="sound">
     <sound>sound\Reeses_puffs_songs</sound>
     <sound>sound\reposted</sound>
+    <sounds name="sound effects">
+      <sound>sound\snd_menu01</sound>
+      <sound>sound\snd_game02</sound>
+      <sound>sound\snd_game01</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="puffs">
