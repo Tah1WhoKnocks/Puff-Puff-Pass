@@ -68,6 +68,7 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_select</room>
     <room>rooms\rm_puffs</room>
   </rooms>
   <help>
